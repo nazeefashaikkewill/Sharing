@@ -30,9 +30,9 @@ public class LoginServlet extends HttpServlet {
 		PrintWriter pw = response.getWriter();
 		pw.println("<h1>Welcome to our website</h1>");
 		pw.println("<h2> Your age is " + request.getAttribute("age"));
-		//Testing Fork by BDeepika
-		//Wanted to check for updates by BDeepika
-		//Changes made by KDeepika
+		
+		//Changes made by BDeepika
+		
 		pw.println("<h3>Started working with git1</h3>");
 		pw.close();
 	}
