@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
 		pw.println("<h1>Welcome to our website</h1>");
 		pw.println("<h2> Your age is " + request.getAttribute("age"));
 		
-		//Test by swapnasatha1234
+		//Test by Roja
 		
 		pw.println("<h3>Started working with git1</h3>");
 		pw.close();
